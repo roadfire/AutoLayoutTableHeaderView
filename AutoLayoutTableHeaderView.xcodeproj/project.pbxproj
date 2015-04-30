@@ -13,6 +13,7 @@
 		034643FB1AF17B090032E116 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034643FA1AF17B090032E116 /* Images.xcassets */; };
 		034643FE1AF17B090032E116 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034643FC1AF17B090032E116 /* LaunchScreen.xib */; };
 		0346440A1AF17B090032E116 /* AutoLayoutTableHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034644091AF17B090032E116 /* AutoLayoutTableHeaderViewTests.swift */; };
+		034644141AF17E400032E116 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034644131AF17E400032E116 /* CustomHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		034644031AF17B090032E116 /* AutoLayoutTableHeaderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTableHeaderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		034644081AF17B090032E116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		034644091AF17B090032E116 /* AutoLayoutTableHeaderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTableHeaderViewTests.swift; sourceTree = "<group>"; };
+		034644131AF17E400032E116 /* CustomHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				034643F31AF17B090032E116 /* AppDelegate.swift */,
 				034643F51AF17B090032E116 /* ViewController.swift */,
+				034644131AF17E400032E116 /* CustomHeaderView.swift */,
 				034643F71AF17B090032E116 /* Main.storyboard */,
 				034643FA1AF17B090032E116 /* Images.xcassets */,
 				034643FC1AF17B090032E116 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034643F61AF17B090032E116 /* ViewController.swift in Sources */,
+				034644141AF17E400032E116 /* CustomHeaderView.swift in Sources */,
 				034643F41AF17B090032E116 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

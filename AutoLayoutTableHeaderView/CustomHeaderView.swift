@@ -12,8 +12,7 @@ class CustomHeaderView: UIView {
 
     @IBOutlet var label: UILabel!
     
-    override func layoutSubviews()
-    {
+    override func layoutSubviews() {
         super.layoutSubviews()
         label.preferredMaxLayoutWidth = label.bounds.width
     }

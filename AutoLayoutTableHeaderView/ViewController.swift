@@ -12,14 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet var tableView: UITableView!
     
-    override func viewDidAppear(animated: Bool)
-    {
-        super.viewDidAppear(animated)
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         sizeHeaderToFit()
     }
     
-    func sizeHeaderToFit()
-    {
+    func sizeHeaderToFit() {
         let headerView = tableView.tableHeaderView!
         
         headerView.setNeedsLayout()
